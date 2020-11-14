@@ -9,8 +9,6 @@ library(ggplot2)
 library(scales)
 #testdata<-read_json("PUT IN FILE DIRECTORY of TESTING DATA HERE")
 #data<-read.csv("PUT IN FILE DIRECTORY of the PROVIDED TRAINING DATA HERE")
-data<-read.csv("A://trainingdata.csv")
-testdata<-read_json("A://test1.geojson")
 
 #training stage
 #first step model: iterative segmented prediction of latitudes
